@@ -1,0 +1,152 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+}
+
+.app_heading{
+  font-size: 22px;
+  position: absolute;
+  left: 20px;
+  font-weight: bold;
+}
+
+.cart_icon{
+  height: 50px;
+  width: 55px;
+  position: absolute;
+  right: 3%;
+}
+
+.cart_counter{
+  position: absolute;
+  right: 40px;
+  top: 5px;
+  font-size: 16px;
+}
+
+.products_container{
+  display: inline-block;
+  justify-content: center;
+  margin: 70px 70px;
+  align-items: center;
+  text-align: center;
+width: 20%;
+position: relative;
+right: -5%;
+}
+
+.product_image{
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+  transition-property: width;
+  transition-property: height;
+  transition: all 0.3s ease-in-out;
+}
+
+.product_image:hover{
+  width: 300px;
+  height: 300px;
+}
+
+.product_name{
+  margin: 10px 0px;
+  font-size: 23px;
+}
+
+.product_price{
+  font-size: 20px;
+}
+
+.addtocart_btn{
+  width: 90px;
+  height: 25px;
+  font-size: 15px;
+margin:15px 0px;
+border: 0px;
+border-radius: 4px;
+cursor: pointer;
+background-color: rgb(100, 18, 145);
+padding: 3px;
+}
+
+.cart_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 2px solid;
+  width: 40%;
+  height: 40%;
+  position: relative;
+  left: 29%;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+.cart_image{
+  width: 210px;
+  height: 210px;
+}
+
+.cart_product_name{
+  font-size: 20px;
+  margin: 4px;
+}
+
+.cart_product_price{
+  font-size: 18px;
+  margin: 4px;
+  margin-bottom: 9px;
+}
+
+.cart_product_qty{
+  font-size: 17px;
+  margin: 4px;
+}
+
+.decrement_btn{
+  width: 40px;
+  height: 22px;
+  font-weight: bold;
+  margin: 1px;
+  background-color: rgb(234, 49, 36);
+  border:0px;
+  border-radius: 5px;
+}
+
+.increment_btn{
+  width: 40px;
+  height: 22px;
+  font-weight: bold;
+  margin: 1px;
+  background-color: rgb(138, 183, 42);
+  border:0px;
+  border-radius: 5px;
+}
+
+.total_amt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+position: absolute;
+left: 45%;
+margin:20px 0px;
+}
+
